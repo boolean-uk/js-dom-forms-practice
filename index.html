@@ -11,14 +11,21 @@
     <div class="container">
         <h1>Form Event Practice</h1>
         <form id="form">
+            <div>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required/>
+            <div id="name-error"></div>
+            </div>
 
+            <div>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required/>
+            <div id="email-error"></div>
+            </div>
 
             <button type="submit">Submit</button>
         </form>
+
 
         <h2>Submissions</h2>
         <ul id="list">
